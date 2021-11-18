@@ -16,5 +16,7 @@ console.log('Cognome Utente ' + cognomeUtente);
 let colorePreferito = prompt('Inserisci colore preferito');
 console.log('Colore Preferito ' + colorePreferito);
 
+const numero = '21';
+console.log('Numero ' + numero);
 // Scritto su pagina
-document.writeln('Dati personali ' + nomeUtente + cognomeUtente + colorePreferito);
+document.writeln('Password ' + nomeUtente + cognomeUtente + colorePreferito + numero);
