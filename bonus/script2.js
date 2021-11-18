@@ -1,9 +1,3 @@
-/*1.  Chiedi all’utente il suo nome,
-2.  poi chiedi il suo cognome,
-3.  poi chiedi il suo colore preferito
-4.  Infine scrivi sulla pagina nomecognomecolorepreferito21*/
-
-
 // Richiesta nome utente
 let nomeUtente = prompt('Inserisci il tuo nome');
 console.log('Nome Utente ' + nomeUtente);
@@ -16,9 +10,14 @@ console.log('Cognome Utente ' + cognomeUtente);
 let colorePreferito = prompt('Inserisci colore preferito');
 console.log('Colore Preferito ' + colorePreferito);
 
-// Numero
-const numero = '21';
-console.log('Numero ' + numero);
+// Numero preferito
+let numeroPreferito = prompt('Inserisci numero preferito');
+console.log('Numero preferito ' + numeroPreferito);
+
+// Addizione 5
+const secondoNumero = 5;
+let somma = numeroPreferito + secondoNumero;
+console.log(somma);
 
 // Scritto su pagina
-document.writeln('Password ' + nomeUtente + cognomeUtente + colorePreferito + numero);
+document.writeln('Password ' + nomeUtente + cognomeUtente + colorePreferito + somma);
